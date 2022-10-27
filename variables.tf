@@ -10,6 +10,7 @@ variable "aws_default_tags" {
   description = "Default tags added to all AWS resources."
   default = {
     Project = "tf-ecs-consul"
+    Environment = "staging"
   }
 }
 
